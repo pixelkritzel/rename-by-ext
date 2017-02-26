@@ -1,15 +1,16 @@
 {
-  "name": "rename-subs",
+  "name": "rename-by-ext",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Timo Zöller",
+  "license": "MIT",
+  "scripts": {
+    "generate": "node createTestData.js"
+  },
   "bin": {
-    "rename-subs": "./index.js"
-  }
+    "rename-by-ext": "./index.js"
+  },
+  "dependencies": {}
 }
